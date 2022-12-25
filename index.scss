@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-color: rgb(17, 79, 17);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    h1{
+        color: goldenrod;
+        font-weight: bolder;
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+    }
+    h3{
+        font-style: italic;
+    }
+}
+
+#start-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: goldenrod;
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(163, 117, 0);
+               
+    }
+}
+
+#new-el{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: goldenrod;
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(163, 117, 0);
+               
+    }
+
+}

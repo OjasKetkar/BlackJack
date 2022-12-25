@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+</head>
+<!-- <link href="https:fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@0,500;1,300&family=Supermercado+One&display=swap" rel="stylesheet"> -->
+<link rel="stylesheet" href="index.css">
+<body>
+    <!-- RULES FOR A BLACKJACK -->
+    <!-- a blackjack is a game to make the hand of two cards sum up to exactly 21, or atleast as close to 21 on the lower side but never more than 21 -->
+    <!-- if greater than 21 then you are out of the game  -->
+    <!-- king is 10 and ace is 11 -->
+<div class="container">
+    <h1>BlackJack</h1>
+    <h3 id="msg-el">Want to play a round? </h3>
+    <button onclick="start()" id="start-btn">Start Game</button>
+    <button id="new-el" onclick="newcard()">New Card</button>
+    <h3 id="cards-el">Cards: </h3>
+    <h3 id="sum-el">Sum: </h3>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
